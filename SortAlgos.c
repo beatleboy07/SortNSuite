@@ -127,7 +127,7 @@ int main() {
     if (sortAlgo == 1) {
       InsertionSort(FileDataGetData(fileData), FileDataGetCapacity(fileData));
       FileDataSetSorted(fileData, 1);
-    } else if (sortAlgj == 2) {
+    } else if (sortAlgo == 2) {
       ShellSort(FileDataGetData(fileData), 0, FileDataGetCapacity(fileData));
       FileDataSetSorted(fileData, 1);
     } else if (sortAlgo == 3) {
